@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | NICO Estructuras Metálicas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="../index.html">NICO Estructuras Metálicas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="obras.html">Obras</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container py-5 mt-5">
+        <h2 class="text-center mb-4">Contactanos</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <p>Nos encontramos en Colonia Caroya, en la calle San Martín 3271.</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3419.3750751672724!2d-64.06689166101549!3d-31.01579802308774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432634fa729ad59%3A0xe3c08e635fb69a4!2sHerreria%20Nicolodi!5e0!3m2!1ses!2sar!4v1747093665824!5m2!1ses!2sar"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <ul class="list-unstyled mt-3">
+                    <li><strong>Teléfono:</strong> 3525 500514</li>
+                    <li><strong>Email:</strong> <a href="mailto:nicolasaleavila@gmail.com">nicolasaleavila@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h5>Envíanos tu consulta</h5>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre y Apellido</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mail" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="mail" name="mail" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="consulta" class="form-label">¿Qué nos querés consultar?</label>
+                        <textarea class="form-control" id="consulta" name="consulta" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <ul class="list-unstyled mb-2 mb-md-0">
+                <li>Dirección: C. José Alfredo Nanini 3271, Colonia Caroya, Córdoba, Argentina.</li>
+                <li>Email: <a href="mailto:nicolasaleavila@gmail.com" class="text-white">nicolasaleavila@gmail.com</a>
+                </li>
+                <li><a href="https://maps.app.goo.gl/WA2FPcc5NztosJXk8" class="text-white">¿Cómo llegar?</a></li>
+            </ul>
+            <div>
+                <a href="https://facebook.com" target="_blank" class="text-white me-3"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com/nico.est.met" target="_blank" class="text-white"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
